@@ -1,0 +1,11 @@
+************************************************************************************************************************************************************************
+`src/main/java/net/StreamLayer.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/StreamLayer.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: interface StreamLayer [line: 15]
+
+	| StreamLayer is used with the NetworkTransport to provide
+	| the low level stream abstraction.
+
+`View source at line: 15 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/StreamLayer.java#L15>`_

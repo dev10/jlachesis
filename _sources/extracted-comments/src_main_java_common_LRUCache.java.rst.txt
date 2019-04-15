@@ -1,0 +1,13 @@
+************************************************************************************************************************************************************************
+`src/main/java/common/LRUCache.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/LRUCache.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public class LRUCache<K,V> extends LinkedHashMap<K, V> [line: 13]
+
+	| A simple LRU cache implementation.
+	| TODO consider to use other LRU cache impl
+	| @param <K>
+	| @param <V>
+
+`View source at line: 13 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/LRUCache.java#L13>`_

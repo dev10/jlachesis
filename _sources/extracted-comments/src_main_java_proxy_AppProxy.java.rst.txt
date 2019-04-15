@@ -1,0 +1,11 @@
+**********************************************************************************************************************************************************************
+`src/main/java/proxy/AppProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/AppProxy.java>`_
+**********************************************************************************************************************************************************************
+
+
+.. function:: public interface AppProxy [line: 12]
+
+	| AppProxy provides an interface for lachesis to communicate with the
+	| application.
+
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/AppProxy.java#L12>`_

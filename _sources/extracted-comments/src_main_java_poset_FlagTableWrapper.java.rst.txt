@@ -1,0 +1,10 @@
+**************************************************************************************************************************************************************************************
+`src/main/java/poset/FlagTableWrapper.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/FlagTableWrapper.java>`_
+**************************************************************************************************************************************************************************************
+
+
+.. function:: public FlagTableWrapper(Map<String, Long> body) [line: 15]
+
+	| @param body
+
+`View source at line: 15 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/FlagTableWrapper.java#L15>`_

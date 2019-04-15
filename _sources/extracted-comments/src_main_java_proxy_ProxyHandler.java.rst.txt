@@ -1,0 +1,12 @@
+******************************************************************************************************************************************************************************
+`src/main/java/proxy/ProxyHandler.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/ProxyHandler.java>`_
+******************************************************************************************************************************************************************************
+
+
+.. function:: public interface ProxyHandler [line: 10]
+
+	| ProxyHandler provides an interface for the application to set handlers for
+	| commiting, retreiving and restoring state and transactions, to and from the
+	| DAG
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/ProxyHandler.java#L10>`_

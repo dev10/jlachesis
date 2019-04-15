@@ -1,0 +1,10 @@
+**************************************************************************************************************************************************************
+`src/main/java/peers/Peer.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/Peer.java>`_
+**************************************************************************************************************************************************************
+
+
+.. function:: public class Peer [line: 11]
+
+	| A Peer
+
+`View source at line: 11 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/Peer.java#L11>`_

@@ -1,0 +1,10 @@
+************************************************************************************************************************************************************************************
+`src/main/java/poset/ParentRoundInfo.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/ParentRoundInfo.java>`_
+************************************************************************************************************************************************************************************
+
+
+.. function:: public class ParentRoundInfo [line: 3]
+
+	| <missing BLOCK_COMMENT>
+
+`View source at line: 3 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/ParentRoundInfo.java#L3>`_

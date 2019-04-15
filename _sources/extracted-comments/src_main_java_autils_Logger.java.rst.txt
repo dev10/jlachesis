@@ -1,0 +1,11 @@
+********************************************************************************************************************************************************************
+`src/main/java/autils/Logger.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Logger.java>`_
+********************************************************************************************************************************************************************
+
+
+.. function:: public class Logger [line: 14]
+
+	| A logger type to allow us to put the field in
+	| @author qn
+
+`View source at line: 14 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Logger.java#L14>`_

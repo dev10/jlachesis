@@ -1,0 +1,12 @@
+****************************************************************************************************************************************************************************
+`src/main/java/node/PeerSelector.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/PeerSelector.java>`_
+****************************************************************************************************************************************************************************
+
+
+.. function:: public interface PeerSelector [line: 8]
+
+	| PeerSelector provides an interface for the lachesis node to
+	| update the last peer it gossiped with and select the next peer
+	| to gossip with
+
+`View source at line: 8 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/PeerSelector.java#L8>`_

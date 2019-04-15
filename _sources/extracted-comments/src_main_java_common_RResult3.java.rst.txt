@@ -1,0 +1,15 @@
+************************************************************************************************************************************************************************
+`src/main/java/common/RResult3.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/RResult3.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public class RResult3<T, K> [line: 12]
+
+	| A generic returned result with:
+	| - a result of type T,
+	| - a result of type K, and
+	| - a possible returned error
+	| @param <T>
+	| @param <K>
+
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/RResult3.java#L12>`_

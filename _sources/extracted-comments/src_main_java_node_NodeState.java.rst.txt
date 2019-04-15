@@ -1,0 +1,17 @@
+**********************************************************************************************************************************************************************
+`src/main/java/node/NodeState.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/NodeState.java>`_
+**********************************************************************************************************************************************************************
+
+
+.. function:: public class NodeState [line: 10]
+
+	| NodeState
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/NodeState.java#L10>`_
+
+.. function:: public void goFunc(Runnable r) [line: 35]
+
+	| Start a goroutine and add it to waitgroup
+	| @param r
+
+`View source at line: 35 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/NodeState.java#L35>`_

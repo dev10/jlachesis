@@ -1,0 +1,18 @@
+******************************************************************************************************************************************************************************
+`src/main/java/net/InmemTransport.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/InmemTransport.java>`_
+******************************************************************************************************************************************************************************
+
+
+.. function:: public class InmemTransport implements Transport [line: 24]
+
+	| InmemTransport implements the Transport interface, to allow lachesis to be
+	| tested in-memory without going over a network.
+
+`View source at line: 24 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/InmemTransport.java#L24>`_
+
+.. function:: public InmemTransport(String addr) [line: 57]
+
+	| Constructs an InmemTransport used to initialize a new transport
+	| @param addr
+
+`View source at line: 57 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/InmemTransport.java#L57>`_

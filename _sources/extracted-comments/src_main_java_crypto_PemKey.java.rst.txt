@@ -1,0 +1,10 @@
+********************************************************************************************************************************************************************
+`src/main/java/crypto/PemKey.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/PemKey.java>`_
+********************************************************************************************************************************************************************
+
+
+.. function:: public class PemKey [line: 38]
+
+	| PemKey loads from the .pem file.
+
+`View source at line: 38 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/PemKey.java#L38>`_

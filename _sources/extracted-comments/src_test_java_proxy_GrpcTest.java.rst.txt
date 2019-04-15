@@ -1,0 +1,11 @@
+**********************************************************************************************************************************************************************
+`src/test/java/proxy/GrpcTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/proxy/GrpcTest.java>`_
+**********************************************************************************************************************************************************************
+
+
+.. function:: public class GrpcTest [line: 32]
+
+	| Test for Grpc
+	| @author qn
+
+`View source at line: 32 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/proxy/GrpcTest.java#L32>`_

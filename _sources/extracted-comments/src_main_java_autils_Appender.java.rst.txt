@@ -1,0 +1,48 @@
+************************************************************************************************************************************************************************
+`src/main/java/autils/Appender.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Appender.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public class Appender [line: 10]
+
+	| An Appender provides a means to express the append and slide operations.
+	| @author qn
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Appender.java#L10>`_
+
+.. function:: public static byte[] append(byte[] a, byte[] b) [line: 44]
+
+	| Appends two byte arrays into a single byte array
+	| @param a
+	| @param b
+	| @return
+
+`View source at line: 44 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Appender.java#L44>`_
+
+.. function:: public static <T> T[] append(T[] a, T[] b) [line: 63]
+
+	| Appends two arrays into an array
+	| @param a
+	| @param b
+	| @return
+
+`View source at line: 63 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Appender.java#L63>`_
+
+.. function:: public static <T> T[] append(T[] a, T b) [line: 100]
+
+	| Appends an object b into an array
+	| @param a
+	| @param b
+	| @return
+
+`View source at line: 100 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Appender.java#L100>`_
+
+.. function:: public static byte[][] slice(byte[][] a, int low, int high) [line: 138]
+
+	| Slice a [low : high] returns array from a[low] to a[high-1]
+	| @param a
+	| @param low
+	| @param high
+	| @return
+
+`View source at line: 138 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/autils/Appender.java#L138>`_

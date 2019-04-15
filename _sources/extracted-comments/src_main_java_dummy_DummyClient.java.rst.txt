@@ -1,0 +1,38 @@
+****************************************************************************************************************************************************************************
+`src/main/java/dummy/DummyClient.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java>`_
+****************************************************************************************************************************************************************************
+
+
+.. function:: public class DummyClient [line: 22]
+
+	| DummyClient is a implementation of the dummy app. Lachesis and the
+	| app run in separate processes and communicate through proxy
+
+`View source at line: 22 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L22>`_
+
+.. function:: public DummyClient(Logger logger, ProxyHandler state, LachesisProxy lachesisProxy) [line: 33]
+
+	| Construct a dummy client
+	| @param logger
+	| @param state
+	| @param lachesisProxy
+
+`View source at line: 33 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L33>`_
+
+.. function:: public error SubmitTx(byte[] tx) [line: 46]
+
+	| SubmitTx sends a transaction to node via proxy
+	| @param tx
+	| @return
+
+`View source at line: 46 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L46>`_
+
+.. function:: public RResult<DummyClient> NewDummyClient(proxy.LachesisProxy lachesisProxy , proxy.ProxyHandler handler , Logger logger) [line: 69]
+
+	| NewDummyClient instantiates an implementation of the dummy app
+	| @param lachesisProxy
+	| @param handler
+	| @param logger
+	| @return
+
+`View source at line: 69 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L69>`_

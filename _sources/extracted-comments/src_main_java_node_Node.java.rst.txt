@@ -1,0 +1,30 @@
+************************************************************************************************************************************************************
+`src/main/java/node/Node.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java>`_
+************************************************************************************************************************************************************
+
+
+.. function:: public void lachesis(boolean gossip) [line: 244]
+
+	| Lachesis is interrupted when a gossip function, launched asynchronously, changes
+	| the state from Gossiping to CatchingUp, or when the node is shutdown
+	| Otherwise, it processes RPC requests, periodicaly initiates gossip while there
+	| is something to gossip about, or waits.
+
+`View source at line: 244 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java#L244>`_
+
+.. function:: public error gossip(String peerAddr, One2OneChannelInt parentReturnCh /* chan struct [line: 431]
+
+	| This function is usually called in a go-routine and needs to inform the
+	| calling routine (usually the lachesis routine) when it is time to exit the
+	| Gossiping state and return
+	| @param peerAddr
+	| @param parentReturnCh
+	| @return
+
+`View source at line: 431 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java#L431>`_
+
+.. function:: public void pushTx(byte[] tx) [line: 831]
+
+	| Node's method candidates
+
+`View source at line: 831 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java#L831>`_

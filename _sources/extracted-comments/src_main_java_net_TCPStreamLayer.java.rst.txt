@@ -1,0 +1,10 @@
+******************************************************************************************************************************************************************************
+`src/main/java/net/TCPStreamLayer.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/TCPStreamLayer.java>`_
+******************************************************************************************************************************************************************************
+
+
+.. function:: class TCPStreamLayer implements StreamLayer [line: 19]
+
+	| TCPStreamLayer implements StreamLayer interface for plain TCP.
+
+`View source at line: 19 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/TCPStreamLayer.java#L19>`_

@@ -1,0 +1,33 @@
+******************************************************************************************************************************************************************************
+`src/main/java/proxy/GrpcAppProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java>`_
+******************************************************************************************************************************************************************************
+
+
+.. function:: public class GrpcAppProxy implements AppProxy, LachesisNodeServer [line: 40]
+
+	| GrpcAppProxy implements the AppProxy interface
+
+`View source at line: 40 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L40>`_
+
+.. function:: public GrpcAppProxy(String bind_addr, Duration timeout, Logger logger) [line: 63]
+
+	| Constructor instantiates a joined AppProxy-interface listen to remote apps
+	| @param bind_addr
+	| @param timeout
+	| @param logger
+
+`View source at line: 63 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L63>`_
+
+.. function:: public error Connect(LachesisNode_ConnectServer stream) [line: 162]
+
+	| Connect implements gRPC-server interface: LachesisNodeServer
+	| @param stream
+	| @return
+
+`View source at line: 162 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L162>`_
+
+.. function:: public error Restore(byte[] snapshot) [line: 287]
+
+	| Restore implements AppProxy interface method
+
+`View source at line: 287 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L287>`_

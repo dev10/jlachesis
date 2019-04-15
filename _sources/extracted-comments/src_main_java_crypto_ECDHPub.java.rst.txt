@@ -1,0 +1,10 @@
+**********************************************************************************************************************************************************************
+`src/main/java/crypto/ECDHPub.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/ECDHPub.java>`_
+**********************************************************************************************************************************************************************
+
+
+.. function:: public static byte[] getPublicKey(byte[] privateKey) [line: 119]
+
+	| Converts a private key into its corresponding public key.
+
+`View source at line: 119 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/ECDHPub.java#L119>`_

@@ -1,0 +1,10 @@
+************************************************************************************************************************************************************************
+`src/main/java/node/NodeStates.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/NodeStates.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public enum NodeStates [line: 6]
+
+	| Defines possible states of a node.
+
+`View source at line: 6 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/NodeStates.java#L6>`_

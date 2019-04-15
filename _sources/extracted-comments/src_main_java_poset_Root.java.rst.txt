@@ -1,0 +1,16 @@
+**************************************************************************************************************************************************************
+`src/main/java/poset/Root.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Root.java>`_
+**************************************************************************************************************************************************************
+
+
+.. function:: public Root(long creatorID) [line: 40]
+
+	| Root forms a base on top of which a participant's Events can be inserted. It
+	| contains the SelfParent of the first descendant of the Root, as well as other
+	| Events, belonging to a past before the Root, which might be referenced
+	| in future Events. NextRound corresponds to a proposed value for the child's
+	| Round; it is only used if the child's OtherParent is empty or NOT in the
+	| Root's Others. NewBaseRoot initializes a Root object for a fresh Poset.
+	| @param creatorID
+
+`View source at line: 40 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Root.java#L40>`_

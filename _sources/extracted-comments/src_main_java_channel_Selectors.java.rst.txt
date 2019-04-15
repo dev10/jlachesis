@@ -1,0 +1,10 @@
+****************************************************************************************************************************************************************************
+`src/main/java/channel/Selectors.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/channel/Selectors.java>`_
+****************************************************************************************************************************************************************************
+
+
+.. function:: public class Selectors<T> [line: 12]
+
+	| @param <T>
+
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/channel/Selectors.java#L12>`_

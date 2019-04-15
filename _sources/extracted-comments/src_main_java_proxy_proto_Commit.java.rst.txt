@@ -1,0 +1,10 @@
+******************************************************************************************************************************************************************************
+`src/main/java/proxy/proto/Commit.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/Commit.java>`_
+******************************************************************************************************************************************************************************
+
+
+.. function:: public class Commit [line: 10]
+
+	| Commit provides a response mechanism.
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/Commit.java#L10>`_

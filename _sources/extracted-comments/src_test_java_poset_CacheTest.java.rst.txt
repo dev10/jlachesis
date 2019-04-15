@@ -1,0 +1,11 @@
+************************************************************************************************************************************************************************
+`src/test/java/poset/CacheTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/poset/CacheTest.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public class CacheTest [line: 26]
+
+	| Test of cache
+	| @author qn
+
+`View source at line: 26 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/poset/CacheTest.java#L26>`_

@@ -1,0 +1,12 @@
+****************************************************************************************************************************************************************************************
+`src/main/java/proxy/GrpcLachesisProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcLachesisProxy.java>`_
+****************************************************************************************************************************************************************************************
+
+
+.. function:: public GrpcLachesisProxy(String addr, Logger logger) [line: 76]
+
+	| Constructor instantiates a LachesisProxy to connect to remote node
+	| @param addr
+	| @param logger
+
+`View source at line: 76 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcLachesisProxy.java#L76>`_

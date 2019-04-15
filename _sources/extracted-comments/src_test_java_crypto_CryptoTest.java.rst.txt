@@ -1,0 +1,11 @@
+****************************************************************************************************************************************************************************
+`src/test/java/crypto/CryptoTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/crypto/CryptoTest.java>`_
+****************************************************************************************************************************************************************************
+
+
+.. function:: public class CryptoTest [line: 42]
+
+	| Tests for Crypto functions
+	| @author qn
+
+`View source at line: 42 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/crypto/CryptoTest.java#L42>`_

@@ -1,0 +1,10 @@
+****************************************************************************************************************************************************************
+`src/main/java/peers/Peers.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/Peers.java>`_
+****************************************************************************************************************************************************************
+
+
+.. function:: public class Peers [line: 14]
+
+	| Multiple peers
+
+`View source at line: 14 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/Peers.java#L14>`_

@@ -1,0 +1,11 @@
+****************************************************************************************************************************************************************************
+`src/test/java/difftool/DiffTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/difftool/DiffTest.java>`_
+****************************************************************************************************************************************************************************
+
+
+.. function:: public class DiffTest [line: 17]
+
+	| Test of diff
+	| @author qn
+
+`View source at line: 17 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/difftool/DiffTest.java#L17>`_

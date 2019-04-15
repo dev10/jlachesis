@@ -1,0 +1,10 @@
+************************************************************************************************************************************************************************************
+`src/cmd/lachesis/commands/KeygenCmd.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/lachesis/commands/KeygenCmd.java>`_
+************************************************************************************************************************************************************************************
+
+
+.. function:: public class KeyGenOptions [line: 42]
+
+	| Main container of Keygen command's options
+
+`View source at line: 42 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/lachesis/commands/KeygenCmd.java#L42>`_

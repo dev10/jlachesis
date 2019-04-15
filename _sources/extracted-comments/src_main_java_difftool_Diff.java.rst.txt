@@ -1,0 +1,10 @@
+********************************************************************************************************************************************************************
+`src/main/java/difftool/Diff.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/difftool/Diff.java>`_
+********************************************************************************************************************************************************************
+
+
+.. function:: public class Diff [line: 18]
+
+	| Diff contains and prints differences details
+
+`View source at line: 18 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/difftool/Diff.java#L18>`_

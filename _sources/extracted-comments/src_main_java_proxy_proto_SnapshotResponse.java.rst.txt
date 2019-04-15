@@ -1,0 +1,10 @@
+**************************************************************************************************************************************************************************************************
+`src/main/java/proxy/proto/SnapshotResponse.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/SnapshotResponse.java>`_
+**************************************************************************************************************************************************************************************************
+
+
+.. function:: public class SnapshotResponse [line: 8]
+
+	| SnapshotResponse captures both a response and a potential error.
+
+`View source at line: 8 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/SnapshotResponse.java#L8>`_

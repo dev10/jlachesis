@@ -1,0 +1,12 @@
+********************************************************************************************************************************************************************
+`src/main/java/common/IProto.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/IProto.java>`_
+********************************************************************************************************************************************************************
+
+
+.. function:: public interface IProto<T, P extends AbstractMessage> [line: 16]
+
+	| Interace for the un/marshaller
+	| @param <T> Type
+	| @param <P> Proto
+
+`View source at line: 16 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/IProto.java#L16>`_

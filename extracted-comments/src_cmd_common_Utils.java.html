@@ -1,0 +1,377 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>src/cmd/common/Utils.java &mdash; Lachesis 0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="src/cmd/dummy/Dummy.java" href="src_cmd_dummy_Dummy.java.html" />
+    <link rel="prev" title="src/cmd/common/CmdRun.java" href="src_cmd_common_CmdRun.java.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Lachesis
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../extracted-comments.html">Extracted Comments</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_common_Cmd.java.html">src/cmd/common/Cmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_common_CmdRun.java.html">src/cmd/common/CmdRun.java</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">src/cmd/common/Utils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_dummy_Dummy.java.html">src/cmd/dummy/Dummy.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_dummy_commands_CLIConfig.java.html">src/cmd/dummy/commands/CLIConfig.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_dummy_commands_DummyClient.java.html">src/cmd/dummy/commands/DummyClient.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_dummy_commands_RootCmd.java.html">src/cmd/dummy/commands/RootCmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_KeygenMain.java.html">src/cmd/lachesis/KeygenMain.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_LachesisMain.java.html">src/cmd/lachesis/LachesisMain.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_commands_CLIConfig.java.html">src/cmd/lachesis/commands/CLIConfig.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_commands_KeygenCmd.java.html">src/cmd/lachesis/commands/KeygenCmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_commands_LachesisCmd.java.html">src/cmd/lachesis/commands/LachesisCmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_commands_LachesisMultiCmd.java.html">src/cmd/lachesis/commands/LachesisMultiCmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_commands_RunCmd.java.html">src/cmd/lachesis/commands/RunCmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_cmd_lachesis_commands_VersionCmd.java.html">src/cmd/lachesis/commands/VersionCmd.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_autils_Appender.java.html">src/main/java/autils/Appender.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_autils_FileUtils.java.html">src/main/java/autils/FileUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_autils_JsonUtils.java.html">src/main/java/autils/JsonUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_autils_Logger.java.html">src/main/java/autils/Logger.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_autils_Utils.java.html">src/main/java/autils/Utils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_autils_time.java.html">src/main/java/autils/time.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_channel_ChannelUtils.java.html">src/main/java/channel/ChannelUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_channel_ExecService.java.html">src/main/java/channel/ExecService.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_channel_Selectors.java.html">src/main/java/channel/Selectors.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_Hash32.java.html">src/main/java/common/Hash32.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_IProto.java.html">src/main/java/common/IProto.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_LRUCache.java.html">src/main/java/common/LRUCache.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_NetUtils.java.html">src/main/java/common/NetUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_RResult.java.html">src/main/java/common/RResult.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_RResult2.java.html">src/main/java/common/RResult2.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_RResult3.java.html">src/main/java/common/RResult3.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_RollingIndex.java.html">src/main/java/common/RollingIndex.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_RollingIndexMap.java.html">src/main/java/common/RollingIndexMap.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_StoreErr.java.html">src/main/java/common/StoreErr.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_StoreErrType.java.html">src/main/java/common/StoreErrType.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_UuidUtils.java.html">src/main/java/common/UuidUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_common_error.java.html">src/main/java/common/error.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_crypto_ECDHPub.java.html">src/main/java/crypto/ECDHPub.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_crypto_PemDump.java.html">src/main/java/crypto/PemDump.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_crypto_PemKey.java.html">src/main/java/crypto/PemKey.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_crypto_RSA.java.html">src/main/java/crypto/RSA.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_crypto_Utils.java.html">src/main/java/crypto/Utils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_crypto_hash.java.html">src/main/java/crypto/hash.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_difftool_Diff.java.html">src/main/java/difftool/Diff.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_difftool_Result.java.html">src/main/java/difftool/Result.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_dummy_DummyClient.java.html">src/main/java/dummy/DummyClient.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_dummy_State.java.html">src/main/java/dummy/State.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_lachesis_ConfigUtils.java.html">src/main/java/lachesis/ConfigUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_lachesis_Lachesis.java.html">src/main/java/lachesis/Lachesis.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_lachesis_LachesisConfig.java.html">src/main/java/lachesis/LachesisConfig.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_EagerSyncRequest.java.html">src/main/java/net/EagerSyncRequest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_EagerSyncResponse.java.html">src/main/java/net/EagerSyncResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_FastForwardRequest.java.html">src/main/java/net/FastForwardRequest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_FastForwardResponse.java.html">src/main/java/net/FastForwardResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_InmemTransport.java.html">src/main/java/net/InmemTransport.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_JsonDecoder.java.html">src/main/java/net/JsonDecoder.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_JsonEncoder.java.html">src/main/java/net/JsonEncoder.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_NetConn.java.html">src/main/java/net/NetConn.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_NetworkTransport.java.html">src/main/java/net/NetworkTransport.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_NetworkTransportType.java.html">src/main/java/net/NetworkTransportType.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_ParsableMessage.java.html">src/main/java/net/ParsableMessage.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_RPC.java.html">src/main/java/net/RPC.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_RPCResponse.java.html">src/main/java/net/RPCResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_RequestType.java.html">src/main/java/net/RequestType.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_StreamLayer.java.html">src/main/java/net/StreamLayer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_SyncRequest.java.html">src/main/java/net/SyncRequest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_SyncResponse.java.html">src/main/java/net/SyncResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_TCPStreamLayer.java.html">src/main/java/net/TCPStreamLayer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_TCPTransport.java.html">src/main/java/net/TCPTransport.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_net_Transport.java.html">src/main/java/net/Transport.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_Config.java.html">src/main/java/node/Config.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_ControlTimer.java.html">src/main/java/node/ControlTimer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_Core.java.html">src/main/java/node/Core.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_FlagtableContainer.java.html">src/main/java/node/FlagtableContainer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_Graph.java.html">src/main/java/node/Graph.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_Node.java.html">src/main/java/node/Node.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_NodeList.java.html">src/main/java/node/NodeList.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_NodeState.java.html">src/main/java/node/NodeState.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_NodeStates.java.html">src/main/java/node/NodeStates.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_PeerSelector.java.html">src/main/java/node/PeerSelector.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_RandomPeerSelector.java.html">src/main/java/node/RandomPeerSelector.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_SmartPeerSelector.java.html">src/main/java/node/SmartPeerSelector.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_node_WaitGroup.java.html">src/main/java/node/WaitGroup.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_JSONPeers.java.html">src/main/java/peers/JSONPeers.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_Peer.java.html">src/main/java/peers/Peer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_PeerComparatorByID.java.html">src/main/java/peers/PeerComparatorByID.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_PeerComparatorByPubHex.java.html">src/main/java/peers/PeerComparatorByPubHex.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_PeerStore.java.html">src/main/java/peers/PeerStore.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_Peers.java.html">src/main/java/peers/Peers.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_peers_StaticPeers.java.html">src/main/java/peers/StaticPeers.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_BadgerStore.java.html">src/main/java/poset/BadgerStore.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_BadgerUtils.java.html">src/main/java/poset/BadgerUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Block.java.html">src/main/java/poset/Block.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_BlockBody.java.html">src/main/java/poset/BlockBody.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_BlockSignature.java.html">src/main/java/poset/BlockSignature.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Event.java.html">src/main/java/poset/Event.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_EventBody.java.html">src/main/java/poset/EventBody.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_EventComparatorByLamportTimestamp.java.html">src/main/java/poset/EventComparatorByLamportTimestamp.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_EventComparatorByTopologicalOrder.java.html">src/main/java/poset/EventComparatorByTopologicalOrder.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_EventMessage.java.html">src/main/java/poset/EventMessage.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_FlagTableWrapper.java.html">src/main/java/poset/FlagTableWrapper.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Frame.java.html">src/main/java/poset/Frame.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_InmemStore.java.html">src/main/java/poset/InmemStore.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_InternalTransaction.java.html">src/main/java/poset/InternalTransaction.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_ParentRoundInfo.java.html">src/main/java/poset/ParentRoundInfo.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_ParticipantBlockSignaturesCache.java.html">src/main/java/poset/ParticipantBlockSignaturesCache.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_ParticipantEventsCache.java.html">src/main/java/poset/ParticipantEventsCache.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Poset.java.html">src/main/java/poset/Poset.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Root.java.html">src/main/java/poset/Root.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_RootEvent.java.html">src/main/java/poset/RootEvent.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_RoundEvent.java.html">src/main/java/poset/RoundEvent.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_RoundInfo.java.html">src/main/java/poset/RoundInfo.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_RoundInfoMessage.java.html">src/main/java/poset/RoundInfoMessage.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Store.java.html">src/main/java/poset/Store.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_TransactionType.java.html">src/main/java/poset/TransactionType.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_Utils.java.html">src/main/java/poset/Utils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_WireBlockSignature.java.html">src/main/java/poset/WireBlockSignature.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_WireBody.java.html">src/main/java/poset/WireBody.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_WireEvent.java.html">src/main/java/poset/WireEvent.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_poset_pendingRound.java.html">src/main/java/poset/pendingRound.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_AppProxy.java.html">src/main/java/proxy/AppProxy.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_GrpcAppProxy.java.html">src/main/java/proxy/GrpcAppProxy.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_GrpcLachesisProxy.java.html">src/main/java/proxy/GrpcLachesisProxy.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_InmemAppProxy.java.html">src/main/java/proxy/InmemAppProxy.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_LachesisProxy.java.html">src/main/java/proxy/LachesisProxy.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_ProxyHandler.java.html">src/main/java/proxy/ProxyHandler.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_internal_LachesisNodeClient.java.html">src/main/java/proxy/internal/LachesisNodeClient.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_internal_LachesisNodeServer.java.html">src/main/java/proxy/internal/LachesisNodeServer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_internal_LachesisNode_ConnectClient.java.html">src/main/java/proxy/internal/LachesisNode_ConnectClient.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_internal_LachesisNode_ConnectServer.java.html">src/main/java/proxy/internal/LachesisNode_ConnectServer.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_Commit.java.html">src/main/java/proxy/proto/Commit.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_CommitResponse.java.html">src/main/java/proxy/proto/CommitResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_RestoreRequest.java.html">src/main/java/proxy/proto/RestoreRequest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_RestoreResponse.java.html">src/main/java/proxy/proto/RestoreResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_Snapshot.java.html">src/main/java/proxy/proto/Snapshot.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_SnapshotRequest.java.html">src/main/java/proxy/proto/SnapshotRequest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_SnapshotResponse.java.html">src/main/java/proxy/proto/SnapshotResponse.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_proxy_proto_StateHash.java.html">src/main/java/proxy/proto/StateHash.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_service_Service.java.html">src/main/java/service/Service.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_main_java_version_Version.java.html">src/main/java/version/Version.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_common_EmptyTest.java.html">src/test/java/common/EmptyTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_common_RollingIndexTest.java.html">src/test/java/common/RollingIndexTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_common_SingSelectors.java.html">src/test/java/common/SingSelectors.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_common_TestLoggerAdapter.java.html">src/test/java/common/TestLoggerAdapter.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_common_TestUtils.java.html">src/test/java/common/TestUtils.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_common_TimedOutEventSelectors.java.html">src/test/java/common/TimedOutEventSelectors.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_crypto_CryptoTest.java.html">src/test/java/crypto/CryptoTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_crypto_Main.java.html">src/test/java/crypto/Main.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_difftool_DiffTest.java.html">src/test/java/difftool/DiffTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_dummy_ClientTest.java.html">src/test/java/dummy/ClientTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_dummy_StateTest.java.html">src/test/java/dummy/StateTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_net_InmemTransportTest.java.html">src/test/java/net/InmemTransportTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_net_NetTransportTest.java.html">src/test/java/net/NetTransportTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_net_TcpTransportTest.java.html">src/test/java/net/TcpTransportTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_node_CoreTest.java.html">src/test/java/node/CoreTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_node_NodeTest.java.html">src/test/java/node/NodeTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_peers_PeerTest.java.html">src/test/java/peers/PeerTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_BadgerStoreTest.java.html">src/test/java/poset/BadgerStoreTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_BlockTest.java.html">src/test/java/poset/BlockTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_CacheTest.java.html">src/test/java/poset/CacheTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_EventTest.java.html">src/test/java/poset/EventTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_InmemStoreTest.java.html">src/test/java/poset/InmemStoreTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_PosetTest.java.html">src/test/java/poset/PosetTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_poset_pub.java.html">src/test/java/poset/pub.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_proxy_GrpcTest.java.html">src/test/java/proxy/GrpcTest.java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src_test_java_proxy_InmemTest.java.html">src/test/java/proxy/InmemTest.java</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Lachesis</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../extracted-comments.html">Extracted Comments</a> &raquo;</li>
+        
+      <li>src/cmd/common/Utils.java</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/extracted-comments/src_cmd_common_Utils.java.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/common/Utils.java">src/cmd/common/Utils.java</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="src_cmd_dummy_Dummy.java.html" class="btn btn-neutral float-right" title="src/cmd/dummy/Dummy.java" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="src_cmd_common_CmdRun.java.html" class="btn btn-neutral float-left" title="src/cmd/common/CmdRun.java" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Mosaic Networks
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

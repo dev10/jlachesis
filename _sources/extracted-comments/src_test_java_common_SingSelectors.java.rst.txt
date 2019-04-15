@@ -1,0 +1,10 @@
+**********************************************************************************************************************************************************************************
+`src/test/java/common/SingSelectors.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/common/SingSelectors.java>`_
+**********************************************************************************************************************************************************************************
+
+
+.. function:: public class SingSelectors [line: 11]
+
+	| @param <T>
+
+`View source at line: 11 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/common/SingSelectors.java#L11>`_

@@ -1,0 +1,10 @@
+****************************************************************************************************************************************************************
+`src/main/java/poset/Store.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Store.java>`_
+****************************************************************************************************************************************************************
+
+
+.. function:: public interface Store [line: 12]
+
+	| Store provides an interface for persistent and non-persistent stores
+
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Store.java#L12>`_

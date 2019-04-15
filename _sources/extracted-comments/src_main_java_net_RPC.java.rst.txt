@@ -1,0 +1,18 @@
+********************************************************************************************************************************************************
+`src/main/java/net/RPC.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/RPC.java>`_
+********************************************************************************************************************************************************
+
+
+.. function:: public class RPC [line: 10]
+
+	| RPC has a command, and provides a response mechanism.
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/RPC.java#L10>`_
+
+.. function:: public void respond(ParsableMessage resp, error err) [line: 31]
+
+	| Respond is used to respond with a response, error or both
+	| @param resp
+	| @param err
+
+`View source at line: 31 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/RPC.java#L31>`_

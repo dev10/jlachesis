@@ -1,0 +1,22 @@
+****************************************************************************************************************************************************************************
+`src/main/java/peers/StaticPeers.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/StaticPeers.java>`_
+****************************************************************************************************************************************************************************
+
+
+.. function:: public class StaticPeers [line: 8]
+
+	| StaticPeers is used to provide a static list of peers.
+
+`View source at line: 8 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/StaticPeers.java#L8>`_
+
+.. function:: public synchronized Peer[] peers() [line: 14]
+
+	| Peers implements the PeerStore interface.
+
+`View source at line: 14 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/StaticPeers.java#L14>`_
+
+.. function:: public synchronized void setPeers(Peer[] p) [line: 22]
+
+	| SetPeers implements the PeerStore interface.
+
+`View source at line: 22 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/StaticPeers.java#L22>`_

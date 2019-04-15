@@ -1,0 +1,11 @@
+**********************************************************************************************************************************************************************
+`src/main/java/common/RResult.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/RResult.java>`_
+**********************************************************************************************************************************************************************
+
+
+.. function:: public class RResult<T> [line: 8]
+
+	| A generic returned result with a result of type T and a possible returned error
+	| @param <T>
+
+`View source at line: 8 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/common/RResult.java#L8>`_

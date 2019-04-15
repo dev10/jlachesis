@@ -1,0 +1,53 @@
+********************************************************************************************************************************************************************************
+`src/main/java/proxy/InmemAppProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java>`_
+********************************************************************************************************************************************************************************
+
+
+.. function:: public class InmemAppProxy implements AppProxy [line: 17]
+
+	| InmemAppProxy implements the AppProxy interface natively
+
+`View source at line: 17 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L17>`_
+
+.. function:: public InmemAppProxy(Logger logger) [line: 30]
+
+	| Constructor instantiates an InmemProxy without a handler.
+	| The handler should be set afterwards before use
+	| @param handler
+	| @param logger
+
+`View source at line: 30 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L30>`_
+
+.. function:: public InmemAppProxy(ProxyHandler handler, Logger logger) [line: 49]
+
+	| Constructor instantiates an InmemProxy from a set of handlers
+	| @param handler
+	| @param logger
+
+`View source at line: 49 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L49>`_
+
+.. function:: public void setHandler(ProxyHandler handler) [line: 58]
+
+	| Sets a proxy handler
+	| @param handler
+
+`View source at line: 58 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L58>`_
+
+.. function:: public One2OneChannel<poset.InternalTransaction> SubmitInternalCh() [line: 81]
+
+	| SubmitCh returns the channel of raw transactions
+
+`View source at line: 81 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L81>`_
+
+.. function:: public error Restore(byte[] snapshot) [line: 114]
+
+	| Restore implements AppProxy interface method, calls handler
+
+`View source at line: 114 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L114>`_
+
+.. function:: public void SubmitTx(byte[] tx) [line: 129]
+
+	| SubmitTx is called by the App to submit a transaction to Lachesis
+	| @param tx
+
+`View source at line: 129 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/InmemAppProxy.java#L129>`_

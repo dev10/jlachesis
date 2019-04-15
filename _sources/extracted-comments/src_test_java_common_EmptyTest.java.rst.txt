@@ -1,0 +1,11 @@
+**************************************************************************************************************************************************************************
+`src/test/java/common/EmptyTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/common/EmptyTest.java>`_
+**************************************************************************************************************************************************************************
+
+
+.. function:: public class EmptyTest [line: 12]
+
+	| Blank test
+	| @author qn
+
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/common/EmptyTest.java#L12>`_

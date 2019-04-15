@@ -1,0 +1,12 @@
+****************************************************************************************************************************************************************
+`src/main/java/poset/Event.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Event.java>`_
+****************************************************************************************************************************************************************
+
+
+.. function:: public RResult<Map<String,Long>> mergeFlagTable(Map<String,Long> dst) [line: 309]
+
+	| MergeFlagTable returns merged flag table object.
+	| @param dst
+	| @return
+
+`View source at line: 309 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Event.java#L309>`_

@@ -1,0 +1,10 @@
+************************************************************************************************************************************************************************************************
+`src/main/java/proxy/proto/RestoreResponse.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/RestoreResponse.java>`_
+************************************************************************************************************************************************************************************************
+
+
+.. function:: public class RestoreResponse [line: 8]
+
+	| RestoreResponse captures both an error.
+
+`View source at line: 8 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/RestoreResponse.java#L8>`_

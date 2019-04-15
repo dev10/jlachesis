@@ -1,0 +1,10 @@
+******************************************************************************************************************************************************************************
+`src/cmd/dummy/commands/CLIConfig.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/dummy/commands/CLIConfig.java>`_
+******************************************************************************************************************************************************************************
+
+
+.. function:: public class CLIConfig [line: 6]
+
+	| CLIConfig contains configuration for the Dummy command
+
+`View source at line: 6 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/dummy/commands/CLIConfig.java#L6>`_

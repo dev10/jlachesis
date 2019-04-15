@@ -1,0 +1,40 @@
+******************************************************************************************************************************************************************
+`src/main/java/crypto/Utils.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/Utils.java>`_
+******************************************************************************************************************************************************************
+
+
+.. function:: public static String getOutputString(Key key, String ec, String type) throws IOException [line: 171]
+
+	| Get the output string of the following forms
+	| -----BEGIN EC PRIVATE KEY-----
+	| MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgJCBV6nJJ4xJAP4In
+	| m1BGbfLTMBUJ7u5gv7IICwndt/agCgYIKoZIzj0DAQehRANCAARqNH8EiKvH2S4i
+	| CHlOMn7KFbDCsnAYsrW4ndjLc2/XzDjzfS0QgiUwrZc1msvYN6ZcLKYtRLDOVpvS
+	| IsLavyaP
+	| -----END EC PRIVATE KEY-----
+	| or
+	| -----BEGIN EC PUBLIC KEY-----
+	| MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEajR/BIirx9kuIgh5TjJ+yhWwwrJw
+	| GLK1uJ3Yy3Nv18w4830tEIIlMK2XNZrL2DemXCymLUSwzlab0iLC2r8mjw==
+	| -----END EC PUBLIC KEY-----
+	| @param key
+	| @param ec
+	| @param type
+	| @return
+	| @throws IOException
+
+`View source at line: 171 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/Utils.java#L171>`_
+
+.. function:: public static String getMimeString(Key key) [line: 194]
+
+	| Public:
+	| MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgJCBV6nJJ4xJAP4Inm1BGbfLTMBUJ
+	| 7u5gv7IICwndt/agCgYIKoZIzj0DAQehRANCAARqNH8EiKvH2S4iCHlOMn7KFbDCsnAYsrW4ndjL
+	| c2/XzDjzfS0QgiUwrZc1msvYN6ZcLKYtRLDOVpvSIsLavyaP
+	| Private:
+	| MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEajR/BIirx9kuIgh5TjJ+yhWwwrJwGLK1uJ3Yy3Nv
+	| 18w4830tEIIlMK2XNZrL2DemXCymLUSwzlab0iLC2r8mjw==
+	| @param key
+	| @return
+
+`View source at line: 194 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/Utils.java#L194>`_

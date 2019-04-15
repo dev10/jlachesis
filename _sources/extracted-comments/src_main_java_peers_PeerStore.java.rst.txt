@@ -1,0 +1,11 @@
+************************************************************************************************************************************************************************
+`src/main/java/peers/PeerStore.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/PeerStore.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public interface PeerStore [line: 10]
+
+	| PeerStore provides an interface for persistent storage and
+	| retrieval of peers.
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/peers/PeerStore.java#L10>`_

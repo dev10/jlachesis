@@ -1,0 +1,11 @@
+************************************************************************************************************************************************************************
+`src/test/java/poset/BlockTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/poset/BlockTest.java>`_
+************************************************************************************************************************************************************************
+
+
+.. function:: public class BlockTest [line: 23]
+
+	| Test of block
+	| @author qn
+
+`View source at line: 23 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/poset/BlockTest.java#L23>`_

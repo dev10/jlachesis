@@ -1,0 +1,10 @@
+**************************************************************************************************************************************************************************************
+`src/cmd/lachesis/commands/VersionCmd.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/lachesis/commands/VersionCmd.java>`_
+**************************************************************************************************************************************************************************************
+
+
+.. function:: public class VersionOptions [line: 16]
+
+	| Main container of version command's options
+
+`View source at line: 16 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/lachesis/commands/VersionCmd.java#L16>`_

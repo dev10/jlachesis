@@ -1,0 +1,17 @@
+********************************************************************************************************************************************************************************
+`src/main/java/net/ParsableMessage.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/ParsableMessage.java>`_
+********************************************************************************************************************************************************************************
+
+
+.. function:: import autils.JsonUtils [line: 3]
+
+	| <missing BLOCK_COMMENT>
+
+`View source at line: 3 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/ParsableMessage.java#L3>`_
+
+.. function:: error parseFrom(String s) [line: 11]
+
+	| Parse the message from an input string
+	| @param s
+
+`View source at line: 11 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/ParsableMessage.java#L11>`_

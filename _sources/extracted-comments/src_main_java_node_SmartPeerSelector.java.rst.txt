@@ -1,0 +1,10 @@
+**************************************************************************************************************************************************************************************
+`src/main/java/node/SmartPeerSelector.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/SmartPeerSelector.java>`_
+**************************************************************************************************************************************************************************************
+
+
+.. function:: public class SmartPeerSelector implements PeerSelector [line: 12]
+
+	| Selection based on FlagTable of a randomly chosen undermined event
+
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/SmartPeerSelector.java#L12>`_

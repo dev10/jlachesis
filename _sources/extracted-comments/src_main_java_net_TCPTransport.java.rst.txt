@@ -1,0 +1,23 @@
+**************************************************************************************************************************************************************************
+`src/main/java/net/TCPTransport.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/TCPTransport.java>`_
+**************************************************************************************************************************************************************************
+
+
+.. function:: import java.io.IOException [line: 3]
+
+	| <missing BLOCK_COMMENT>
+
+`View source at line: 3 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/TCPTransport.java#L3>`_
+
+.. function:: public static RResult<NetworkTransport> NewTCPTransport(String bindAddr, InetAddress advertise, int maxPool, Duration timeout, Logger logger) [line: 32]
+
+	| Creates a new TCPTransport
+	| @param bindAddr
+	| @param advertise
+	| @param maxPool
+	| @param timeout
+	| @param logger
+	| @return a NetworkTransport that is built on top of
+	| a TCP streaming transport layer, with log output going to the supplied Logger
+
+`View source at line: 32 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/net/TCPTransport.java#L32>`_

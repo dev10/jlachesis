@@ -1,0 +1,11 @@
+********************************************************************************************************************************************************************
+`src/test/java/node/CoreTest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/node/CoreTest.java>`_
+********************************************************************************************************************************************************************
+
+
+.. function:: public class CoreTest [line: 35]
+
+	| Test for Core
+	| @author qn
+
+`View source at line: 35 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/node/CoreTest.java#L35>`_

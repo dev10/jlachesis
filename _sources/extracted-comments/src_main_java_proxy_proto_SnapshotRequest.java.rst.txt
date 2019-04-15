@@ -1,0 +1,10 @@
+************************************************************************************************************************************************************************************************
+`src/main/java/proxy/proto/SnapshotRequest.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/SnapshotRequest.java>`_
+************************************************************************************************************************************************************************************************
+
+
+.. function:: public class SnapshotRequest [line: 10]
+
+	| SnapshotRequest provides a response mechanism.
+
+`View source at line: 10 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/proto/SnapshotRequest.java#L10>`_
