@@ -1,5 +1,5 @@
 **************************************************************************************************************************************************************************
-`src/cmd/dummy/commands/RootCmd.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/dummy/commands/RootCmd.java>`_
+`src/cmd/dummy/commands/RootCmd.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/cmd/dummy/commands/RootCmd.java>`_
 **************************************************************************************************************************************************************************
 
 
@@ -7,11 +7,11 @@
 
 	| RUN
 
-`View source at line: 44 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/dummy/commands/RootCmd.java#L44>`_
+`View source at line: 44 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/cmd/dummy/commands/RootCmd.java#L44>`_
 
 .. function:: public class RootOptions [line: 122]
 
 	| This is the main container which will be populated by picocli with values
 	| from the arguments.
 
-`View source at line: 122 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/cmd/dummy/commands/RootCmd.java#L122>`_
+`View source at line: 122 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/cmd/dummy/commands/RootCmd.java#L122>`_

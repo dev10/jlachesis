@@ -1,5 +1,5 @@
 ****************************************************************************************************************************************************************************************
-`src/main/java/proxy/GrpcLachesisProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcLachesisProxy.java>`_
+`src/main/java/proxy/GrpcLachesisProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcLachesisProxy.java>`_
 ****************************************************************************************************************************************************************************************
 
 
@@ -9,4 +9,4 @@
 	| @param addr
 	| @param logger
 
-`View source at line: 76 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcLachesisProxy.java#L76>`_
+`View source at line: 76 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcLachesisProxy.java#L76>`_

@@ -322,7 +322,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/poset/PosetTest.java">src/test/java/poset/PosetTest.java</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/test/java/poset/PosetTest.java">src/test/java/poset/PosetTest.java</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <dl class="function">
 <dt>
 <code class="descname">public class PosetTest [line: 31]</code></dt>
@@ -332,7 +332,118 @@
 </div>
 </dd></dl>
 
-<p><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/test/java/poset/PosetTest.java#L31">View source at line: 31</a></p>
+<p><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/test/java/poset/PosetTest.java#L31">View source at line: 31</a></p>
+<dl class="function">
+<dt>
+<code class="descname">public void initPoset() [line: 335]</code></dt>
+<dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">|</span>  <span class="n">e12</span>  <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> \ <span class="o">|</span>
+<span class="o">|</span>  <span class="n">s10</span> <span class="n">e20</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>
+<span class="o">|</span>   <span class="o">/</span>   <span class="o">|</span>
+<span class="o">|</span> <span class="o">/</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="n">s00</span> <span class="o">|</span>  <span class="n">s20</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>
+<span class="n">e01</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span> \ <span class="o">|</span>   <span class="o">|</span>
+<span class="n">e0</span>  <span class="n">e1</span>  <span class="n">e2</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>
+<span class="n">r0</span>  <span class="n">r1</span>  <span class="n">r2</span>
+<span class="mi">0</span>   <span class="mi">1</span>   <span class="mi">2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<p><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/test/java/poset/PosetTest.java#L335">View source at line: 335</a></p>
+<dl class="function">
+<dt>
+<code class="descname">public void initRoundPoset() [line: 581]</code></dt>
+<dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">|</span>  <span class="n">s11</span>  <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>   <span class="n">f1</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">/|</span>   <span class="o">|</span>
+<span class="o">|</span> <span class="o">/</span> <span class="n">s10</span> <span class="o">|</span>
+<span class="o">|/</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="n">e02</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span> \ <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>   \   <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> \ <span class="o">|</span>
+<span class="n">s00</span> <span class="o">|</span>  <span class="n">e21</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>
+<span class="o">|</span>  <span class="n">e10</span>  <span class="n">s20</span>
+<span class="o">|</span> <span class="o">/</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="n">e0</span>  <span class="n">e1</span>  <span class="n">e2</span>
+<span class="mi">0</span>   <span class="mi">1</span>    <span class="mi">2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<p><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/test/java/poset/PosetTest.java#L581">View source at line: 581</a></p>
+<dl class="function">
+<dt>
+<code class="descname">public void initConsensusPoset(boolean db) [line: 1329]</code></dt>
+<dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Round</span> <span class="mi">8</span>
+<span class="p">[</span><span class="n">m0</span><span class="p">]</span>  <span class="o">|</span> <span class="p">[</span><span class="n">m2</span><span class="p">]</span><span class="o">-----------------------------</span>
+<span class="o">|</span> \ <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">7</span>
+<span class="o">|</span>  <span class="o">&lt;</span><span class="n">l1</span><span class="o">&gt;</span> <span class="o">|</span>
+<span class="o">|</span>  <span class="o">/|</span>   <span class="o">|</span>
+<span class="o">&lt;</span><span class="n">l0</span><span class="o">&gt;</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span> \ <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>   \   <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> \ <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">&lt;</span><span class="n">l2</span><span class="o">&gt;-----------------------------</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">6</span>
+<span class="o">|</span> <span class="p">[</span><span class="n">k10</span><span class="p">]</span> <span class="o">|</span>
+<span class="o">|</span> <span class="o">/</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="p">[</span><span class="n">k0</span><span class="p">]</span>  <span class="o">|</span> <span class="p">[</span><span class="n">k2</span><span class="p">]</span><span class="o">-----------------------------</span>
+<span class="o">|</span> \ <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">5</span>
+<span class="o">|</span> <span class="o">&lt;</span><span class="n">j1</span><span class="o">&gt;</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">/|</span>   <span class="o">|</span>
+<span class="o">&lt;</span><span class="n">j0</span><span class="o">&gt;</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span> \ <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>   \   <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> \ <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">&lt;</span><span class="n">j2</span><span class="o">&gt;-----------------------------</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">4</span>
+<span class="o">|</span> <span class="p">[</span><span class="n">i1</span><span class="p">]</span>  <span class="o">|</span>
+<span class="o">|</span> <span class="o">/</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="p">[</span><span class="n">i0</span><span class="p">]</span>  <span class="o">|</span> <span class="p">[</span><span class="n">i2</span><span class="p">]</span><span class="o">-----------------------------</span>
+<span class="o">|</span> \ <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">3</span>
+<span class="o">|</span> <span class="o">&lt;</span><span class="n">h10</span><span class="o">&gt;</span> <span class="o">|</span>
+<span class="o">|</span>  <span class="o">/|</span>   <span class="o">|</span>
+<span class="n">h0b</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>
+<span class="o">&lt;</span><span class="n">h0</span><span class="o">&gt;</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span> \ <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>   \   <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span> \ <span class="o">|</span>
+<span class="o">---</span><span class="n">g0x</span>  <span class="o">|</span> <span class="o">&lt;</span><span class="n">h2</span><span class="o">&gt;-----------------------------</span> <span class="o">//</span><span class="n">g0x</span><span class="s1">&#39;s other-parent is f2. This situation can happen with concurrency.</span>
+<span class="o">|</span>       <span class="o">|</span>   <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">2</span>
+<span class="o">|</span>       <span class="o">|</span>  <span class="n">g10</span>  <span class="o">|</span>
+<span class="o">|</span>       <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>  <span class="p">[</span><span class="n">g0</span><span class="p">]</span> <span class="o">|</span> <span class="p">[</span><span class="n">g2</span><span class="p">]</span>
+<span class="o">|</span>       <span class="o">|</span> \ <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>
+<span class="o">|</span>       <span class="o">|</span> <span class="p">[</span><span class="n">g1</span><span class="p">]</span>  <span class="o">|</span> <span class="o">------------------------------</span>
+<span class="o">|</span>       <span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>  <span class="n">Round</span> <span class="mi">1</span>
+<span class="o">|</span>       <span class="o">|</span> <span class="o">&lt;</span><span class="n">f1</span><span class="o">&gt;</span>  <span class="o">|</span>
+<span class="o">|</span>       <span class="o">|</span>  <span class="o">/|</span>   <span class="o">|</span>
+<span class="o">|</span> <span class="o">&lt;</span><span class="n">f0</span><span class="o">&gt;</span>  <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>       <span class="o">|</span> \ <span class="o">|</span>   <span class="o">|</span>
+<span class="o">|</span>       <span class="o">|</span>   \   <span class="o">|</span>
+<span class="o">|</span>       <span class="o">|</span>   <span class="o">|</span> \ <span class="o">|</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>  <span class="n">f2b</span>
+<span class="o">|</span>       <span class="o">|</span>   <span class="o">|</span>   <span class="o">|</span>
+<span class="o">----------&lt;</span><span class="n">f2</span><span class="o">&gt;------------------------------</span>
+<span class="o">|</span>   <span class="o">|</span> <span class="o">/</span> <span class="o">|</span>  <span class="n">Round</span> <span class="mi">0</span>
+<span class="o">|</span>  <span class="n">e10</span>  <span class="o">|</span>
+<span class="o">|</span> <span class="o">/</span> <span class="o">|</span>   <span class="o">|</span>
+<span class="p">[</span><span class="n">e0</span><span class="p">][</span><span class="n">e1</span><span class="p">][</span><span class="n">e2</span><span class="p">]</span>
+<span class="mi">0</span>   <span class="mi">1</span>    <span class="mi">2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<p><a class="reference external" href="https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/test/java/poset/PosetTest.java#L1329">View source at line: 1329</a></p>
 </div>
 
 

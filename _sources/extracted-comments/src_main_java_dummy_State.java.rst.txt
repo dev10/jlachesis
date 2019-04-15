@@ -1,5 +1,5 @@
 ****************************************************************************************************************************************************************
-`src/main/java/dummy/State.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/State.java>`_
+`src/main/java/dummy/State.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/State.java>`_
 ****************************************************************************************************************************************************************
 
 
@@ -7,4 +7,4 @@
 
 	| State implements ProxyHandler
 
-`View source at line: 16 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/State.java#L16>`_
+`View source at line: 16 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/State.java#L16>`_

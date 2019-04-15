@@ -1,5 +1,5 @@
 ****************************************************************************************************************************************************************
-`src/main/java/poset/Poset.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Poset.java>`_
+`src/main/java/poset/Poset.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Poset.java>`_
 ****************************************************************************************************************************************************************
 
 
@@ -8,7 +8,7 @@
 	| Poset is a DAG of Events. It also contains methods to extract a consensus
 	| order of Events and map them onto a blockchain.
 
-`View source at line: 30 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Poset.java#L30>`_
+`View source at line: 30 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Poset.java#L30>`_
 
 .. function:: public Poset(peers.Peers participants, Store store, One2OneChannel<Block> commitCh /* chan Block */, Logger logger) [line: 64]
 
@@ -19,22 +19,22 @@
 	| @param commitCh
 	| @param logger
 
-`View source at line: 64 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Poset.java#L64>`_
+`View source at line: 64 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Poset.java#L64>`_
 
 .. function:: private static String Key (String x, String y) [line: 141]
 
 	| Private Methods
 
-`View source at line: 141 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Poset.java#L141>`_
+`View source at line: 141 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Poset.java#L141>`_
 
 .. function:: public int getPendingLoadedEvents() [line: 2252]
 
 	| Getters and Setters
 
-`View source at line: 2252 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Poset.java#L2252>`_
+`View source at line: 2252 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Poset.java#L2252>`_
 
 .. function:: public boolean middleBit(String ehex) [line: 2283]
 
 	| Helpers
 
-`View source at line: 2283 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Poset.java#L2283>`_
+`View source at line: 2283 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Poset.java#L2283>`_

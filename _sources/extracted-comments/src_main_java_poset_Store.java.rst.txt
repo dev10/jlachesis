@@ -1,5 +1,5 @@
 ****************************************************************************************************************************************************************
-`src/main/java/poset/Store.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Store.java>`_
+`src/main/java/poset/Store.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Store.java>`_
 ****************************************************************************************************************************************************************
 
 
@@ -7,4 +7,4 @@
 
 	| Store provides an interface for persistent and non-persistent stores
 
-`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/Store.java#L12>`_
+`View source at line: 12 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/Store.java#L12>`_

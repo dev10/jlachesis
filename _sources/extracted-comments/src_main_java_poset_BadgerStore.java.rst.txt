@@ -1,5 +1,5 @@
 ****************************************************************************************************************************************************************************
-`src/main/java/poset/BadgerStore.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/BadgerStore.java>`_
+`src/main/java/poset/BadgerStore.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/BadgerStore.java>`_
 ****************************************************************************************************************************************************************************
 
 
@@ -7,7 +7,7 @@
 
 	| BadgerStore
 
-`View source at line: 28 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/BadgerStore.java#L28>`_
+`View source at line: 28 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/BadgerStore.java#L28>`_
 
 .. function:: public static RResult<BadgerStore> NewBadgerStore(peers.Peers participants, int cacheSize, String path) [line: 81]
 
@@ -17,7 +17,7 @@
 	| @param path
 	| @return
 
-`View source at line: 81 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/BadgerStore.java#L81>`_
+`View source at line: 81 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/BadgerStore.java#L81>`_
 
 .. function:: public static RResult<BadgerStore> LoadBadgerStore(int cacheSize, String path) [line: 106]
 
@@ -26,4 +26,4 @@
 	| @param path
 	| @return
 
-`View source at line: 106 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/poset/BadgerStore.java#L106>`_
+`View source at line: 106 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/poset/BadgerStore.java#L106>`_

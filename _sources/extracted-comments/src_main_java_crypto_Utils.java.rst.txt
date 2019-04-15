@@ -1,5 +1,5 @@
 ******************************************************************************************************************************************************************
-`src/main/java/crypto/Utils.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/Utils.java>`_
+`src/main/java/crypto/Utils.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/crypto/Utils.java>`_
 ******************************************************************************************************************************************************************
 
 
@@ -23,7 +23,7 @@
 	| @return
 	| @throws IOException
 
-`View source at line: 171 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/Utils.java#L171>`_
+`View source at line: 171 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/crypto/Utils.java#L171>`_
 
 .. function:: public static String getMimeString(Key key) [line: 194]
 
@@ -37,4 +37,4 @@
 	| @param key
 	| @return
 
-`View source at line: 194 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/crypto/Utils.java#L194>`_
+`View source at line: 194 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/crypto/Utils.java#L194>`_

@@ -1,5 +1,5 @@
 ****************************************************************************************************************************************************************************
-`src/main/java/dummy/DummyClient.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java>`_
+`src/main/java/dummy/DummyClient.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/DummyClient.java>`_
 ****************************************************************************************************************************************************************************
 
 
@@ -8,7 +8,7 @@
 	| DummyClient is a implementation of the dummy app. Lachesis and the
 	| app run in separate processes and communicate through proxy
 
-`View source at line: 22 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L22>`_
+`View source at line: 22 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/DummyClient.java#L22>`_
 
 .. function:: public DummyClient(Logger logger, ProxyHandler state, LachesisProxy lachesisProxy) [line: 33]
 
@@ -17,7 +17,7 @@
 	| @param state
 	| @param lachesisProxy
 
-`View source at line: 33 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L33>`_
+`View source at line: 33 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/DummyClient.java#L33>`_
 
 .. function:: public error SubmitTx(byte[] tx) [line: 46]
 
@@ -25,7 +25,7 @@
 	| @param tx
 	| @return
 
-`View source at line: 46 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L46>`_
+`View source at line: 46 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/DummyClient.java#L46>`_
 
 .. function:: public RResult<DummyClient> NewDummyClient(proxy.LachesisProxy lachesisProxy , proxy.ProxyHandler handler , Logger logger) [line: 69]
 
@@ -35,4 +35,4 @@
 	| @param logger
 	| @return
 
-`View source at line: 69 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/dummy/DummyClient.java#L69>`_
+`View source at line: 69 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/dummy/DummyClient.java#L69>`_

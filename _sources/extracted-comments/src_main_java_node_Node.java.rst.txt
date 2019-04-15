@@ -1,5 +1,5 @@
 ************************************************************************************************************************************************************
-`src/main/java/node/Node.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java>`_
+`src/main/java/node/Node.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/node/Node.java>`_
 ************************************************************************************************************************************************************
 
 
@@ -10,7 +10,7 @@
 	| Otherwise, it processes RPC requests, periodicaly initiates gossip while there
 	| is something to gossip about, or waits.
 
-`View source at line: 244 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java#L244>`_
+`View source at line: 244 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/node/Node.java#L244>`_
 
 .. function:: public error gossip(String peerAddr, One2OneChannelInt parentReturnCh /* chan struct [line: 431]
 
@@ -21,10 +21,10 @@
 	| @param parentReturnCh
 	| @return
 
-`View source at line: 431 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java#L431>`_
+`View source at line: 431 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/node/Node.java#L431>`_
 
 .. function:: public void pushTx(byte[] tx) [line: 831]
 
 	| Node's method candidates
 
-`View source at line: 831 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/node/Node.java#L831>`_
+`View source at line: 831 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/node/Node.java#L831>`_

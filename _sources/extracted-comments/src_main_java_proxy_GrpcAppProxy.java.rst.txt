@@ -1,5 +1,5 @@
 ******************************************************************************************************************************************************************************
-`src/main/java/proxy/GrpcAppProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java>`_
+`src/main/java/proxy/GrpcAppProxy.java <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcAppProxy.java>`_
 ******************************************************************************************************************************************************************************
 
 
@@ -7,7 +7,7 @@
 
 	| GrpcAppProxy implements the AppProxy interface
 
-`View source at line: 40 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L40>`_
+`View source at line: 40 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcAppProxy.java#L40>`_
 
 .. function:: public GrpcAppProxy(String bind_addr, Duration timeout, Logger logger) [line: 63]
 
@@ -16,7 +16,7 @@
 	| @param timeout
 	| @param logger
 
-`View source at line: 63 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L63>`_
+`View source at line: 63 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcAppProxy.java#L63>`_
 
 .. function:: public error Connect(LachesisNode_ConnectServer stream) [line: 162]
 
@@ -24,10 +24,10 @@
 	| @param stream
 	| @return
 
-`View source at line: 162 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L162>`_
+`View source at line: 162 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcAppProxy.java#L162>`_
 
 .. function:: public error Restore(byte[] snapshot) [line: 287]
 
 	| Restore implements AppProxy interface method
 
-`View source at line: 287 <https://github.com/Fantom-Foundation/jlachesis/blob/1d3bfca849d10d97dbaa722a55c79ca190145a77/src/main/java/proxy/GrpcAppProxy.java#L287>`_
+`View source at line: 287 <https://github.com/Fantom-Foundation/jlachesis/blob/8ac04a44ee6406949d7d24dd528cfee42ac19060/src/main/java/proxy/GrpcAppProxy.java#L287>`_
